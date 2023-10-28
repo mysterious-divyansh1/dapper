@@ -1,0 +1,224 @@
+* {
+  margin:0;
+  padding:0;
+}
+html,
+body{
+    height:100%;
+    width:100%;
+}
+.navbar{
+  display: flex;
+  height:5rem;
+  width:100%;
+  background-color:#6f6af7;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap :wrap;
+  font-family: "DM Sans", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ffffff;
+  margin-bottom: 1%;
+  position:fixed;
+  top:0;
+
+}
+.arrow img{
+    padding-bottom:2.5px;
+    width:0.6rem;
+}
+.logo{
+    font-family:"Delius Unicase", cursive;
+    font-weight:700;
+    font-size:2.9rem;
+    margin-left:3.5rem;
+    padding-bottom:7px;
+
+
+}
+.ham img{
+    margin-right:3.4rem;
+    height:1.8rem;
+}
+.input input{
+    height:5vh;
+    width:15vw;
+    border-radius:3.5rem;
+    background-color:white;
+    background-size:18px;
+    background-repeat:no-repeat;
+    background-position:93% center;
+    font-weight:400;
+
+}
+.input input::placeholder{
+    padding-left:1.1rem;
+    padding-top:0.5rem;
+    font-weight:400;
+    font-size:0.9rem;
+    color:#9f9f9f;
+}
+ul{
+    display :flex;
+    font-size :1.4rem;
+    gap:4rem;
+    margin-left:3rem;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;;
+
+}
+li{
+    list-style:none;
+}
+.bodytext textarea{
+     background-color:rgb(229,216,255);
+     border-radius:1.2rem;
+     width :55vw;
+     height:46.5vh;
+     margin-left:1%;
+}
+.body{
+    height:180vh;
+    width:100%;
+}.topbody{
+    display:flex;
+    flex-flow:wrap;
+    place-content:space-around start;
+    margin-bottom:2rem;
+    flex-direction:row;
+    align-content:center;
+    align-items:center;
+
+
+}
+.code img{
+    height:47vh;
+    width:20vw;
+    margin-left:30%;
+    box-shadow:rgba(0,0,0,0.4)0px 9px 31px 0px;
+    object-fit:fill;
+    border-radius:1.2rem;
+}
+.midbody{
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap :wrap;
+    gap: 7rem;
+    align-items: center;
+    margin-bottom:12rem;
+    margin-left:6rem;
+    justify-content:center;
+}
+.box1{
+    background-color:#929dff;
+    color:#ffffff;
+    padding-top:1rem;
+    line-height:2.5rem;
+    padding-left:1.2 rem;
+    box-shadow:0px 9px 31px 0px rgba(0,0,0,0.4);
+
+}
+.box2 {
+    background-color: #734cf2;
+    color: #ffffff;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+    padding-left: 1.2rem;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+  }
+  .box3 {
+    background-color: #d288ff;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+    padding-left: 1.2rem;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+  }
+  .box4 {
+    background-color: #000;
+    color: #ffffff;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+    padding-left: 1.2rem;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+  }
+  .midbody p{
+    color:#fff;
+    font-size:1.2rem;
+    font-family:"DM Sans",sans-serif;
+    letter-spacing:1.9px;
+    padding-left:0.5rem;
+  }
+  .chathelp img{
+    position:fixed;
+    bottom:0px;
+    right:4.5%;
+    z-index:10;
+    height: 8rem;
+  }
+  .footer{
+    height:72vh;
+    width:85%;
+    display:flex;
+    background-color: #483eff;
+    flex-direction: space-around;
+    align-items:center;
+    background-color:#483eff;
+  }
+  .right{
+    width:53vw;
+    height:6vh;
+    color:#000;
+    background-color:#fff;
+    padding-bottom:2.1rem;
+    font-weight:700;
+    color:#04285a;
+  }
+  .right p b{
+    color:#04285a;
+  }
+  .left .button1{
+    color:#000;
+    background-color:#bce0f6;
+    font-weight:900;
+    box-shadow:0px 6px 35px 0px rgba(0,0,0,0.39);
+    border:none;
+  }
+  .right button {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-size:1.3rem;
+    height:6vh;
+    width:9.5rem;
+    padding-right: 3rem;;
+    border-radius:7px;
+    background-repeat :no-repeat;
+    background-size:27px;
+    background-position:5.8rem center;
+    position: relative;
+    left: 40.5vw;
+    top:15vh;
+
+  }
+  .socialicon {
+    width:5%;
+    float:inline-end;
+    margin-top : 2.5rem;
+    position:sticky;
+    top:13%;
+
+
+  }
+  .socialicon img{
+    height:4rem;
+  }
+  .socialicon .whatsapp{
+    border:3.1px solid black;
+    padding:4px;
+    border-radius:10px;
+    height:3.1rem;
+
+  }
+
+
+
